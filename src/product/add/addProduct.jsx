@@ -111,15 +111,15 @@ export const ProductAdd =() => {
                 <label>discription</label>
                 <textarea style={{resize:'none'}} type="text" className='field' placeholder = 'discription of product' name="discription" id="discription"/>
                 </div>
-                <input type="file" id="actual-btn" hidden/>
-                <label id="button" htmlFor="actual-btn">image of Product</label>
-                <img id = 'preview' src=""/>
                 <div className="inputBox">
                 <label>specs</label>
                 <div id="specs">
                 </div>
                 </div>
                 <button type="text" onClick={addSpec}>add spec</button>
+                <input type="file" id="actual-btn" hidden/>
+                <label id="button" htmlFor="actual-btn">image of Product</label>
+                <img id = 'preview' src=""/>
                 <button type="submit">submit</button> 
             </form>
         </section>
