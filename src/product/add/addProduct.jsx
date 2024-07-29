@@ -42,6 +42,7 @@ export const ProductAdd =() => {
                         if(imgsrc !== undefined)
                         {
                             document.getElementById('preview').src = imgsrc;
+                            document.getElementById('preview').style.height = '300px';
                             clearInterval(inter);
                         }
                     }, 500);
@@ -119,7 +120,7 @@ export const ProductAdd =() => {
                 <button type="text" onClick={addSpec}>add spec</button>
                 <input type="file" id="actual-btn" hidden/>
                 <label id="button" htmlFor="actual-btn">image of Product</label>
-                <img id = 'preview' src="" height={'200px'}/>
+                <img id = 'preview' src=""/>
                 <button type="submit">submit</button> 
             </form>
         </section>
