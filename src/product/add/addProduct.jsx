@@ -119,7 +119,7 @@ export const ProductAdd =() => {
                 <button type="text" onClick={addSpec}>add spec</button>
                 <input type="file" id="actual-btn" hidden/>
                 <label id="button" htmlFor="actual-btn">image of Product</label>
-                <img id = 'preview' src=""/>
+                <img id = 'preview' src="" height={'200px'}/>
                 <button type="submit">submit</button> 
             </form>
         </section>
