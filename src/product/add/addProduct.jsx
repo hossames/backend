@@ -85,9 +85,9 @@ export const ProductAdd =() => {
         let element = document.createElement('div');
         element.classList.add('spec');
         element.innerHTML = `
-        <input type="text" className='field' placeholder = 'enter name of specs' name="nameAr"/>
-        <input type="text" className='field' placeholder = 'enter name of price' name="nameEn"/>
-        <input type="text" className='field' placeholder = 'enter name of description' name="value"/>`;
+        <input type="text" className='field' placeholder = 'enter spec in arabic' name="nameAr"/>
+        <input type="text" className='field' placeholder = 'enter spec in english' name="nameEn"/>
+        <input type="text" className='field' placeholder = 'enter value of spec' name="value"/>`;
         document.getElementById('specs').appendChild(element);
     }
     return (
