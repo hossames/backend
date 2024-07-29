@@ -1,0 +1,57 @@
+section{
+    min-height: 100vh;
+    display: flex;
+    background-color: black;
+}
+
+form{
+    display: flex;
+    min-height: 40vh;
+    position: absolute;
+    row-gap: 10px;
+    left: 25%;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(213, 208, 208);
+    padding: 1rem;
+    select{
+        width: 100%;
+    }
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.3rem;
+    .field{
+        border:1px solid white;
+        padding:0.5rem 1rem;
+        font-weight: 400;
+        background-color: rgb(232, 232, 232);
+    }
+}
+
+button{
+    background: linear-gradient(90deg, rgba(147, 195, 243, 1) 0%, rgba(49, 97, 222, 1) 100%);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 1s;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#button{
+    background: linear-gradient(90deg, rgba(147, 195, 243, 1) 0%, rgba(49, 97, 222, 1) 100%);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 1s;
+    width: 100%;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,25 @@
+#header{
+    text-align: center;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    flex-direction: column;
+    row-gap: 5%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 25%;
+    padding: 0.5rem;
+    justify-content: center;
+    font-weight: 800;
+    background-color: black;
+}
+a span{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+}
+.nav-item{
+    background-color: rgb(50, 49, 49);
+    padding: 0.4rem;
+}
