@@ -10,10 +10,10 @@ export const Catagory =() => {
             <Header />
             <form>
             <Link to = './add'>
-            <button>add</button>
+            <button>اضافة</button>
             </Link>
             <Link to = './delete-c'>
-            <button>delete</button>
+            <button>حذف</button>
             </Link>
             </form>
         </section>

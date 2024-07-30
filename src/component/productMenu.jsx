@@ -25,7 +25,7 @@ export const ProductMenu = () => {
             })
         }
         </select>
-        <button id ='catagoryDeleteBtn'>delete</button>
+        <button id ='catagoryDeleteBtn'>حذف</button>
         </form>
     )
 }

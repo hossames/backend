@@ -34,7 +34,7 @@ export const Catagorydelete = () =>{
             <Header />
             <form>
             <CatagoryMenu />
-            <button id ='catagoryDeleteBtn'>delete</button>
+            <button id ='catagoryDeleteBtn'>حذف</button>
             </form>
         </section>
         </>

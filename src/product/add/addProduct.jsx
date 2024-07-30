@@ -95,31 +95,31 @@ export const ProductAdd =() => {
         <>
         <section>
             <Header />
-            <form>
+            <form dir="rtl">
                 <div className="inputBox">
-                <label>Name</label>
+                <label>اسم المنتج</label>
                 <input type="text" className='field' placeholder = 'name of product' name="name" id="productName"/>
                 </div>
                 <div className="inputBox">
-                <label>catagory</label>
+                <label>اختر فئة المنتج</label>
                 <CatagoryMenu/>
                 </div>
                 <div className="inputBox">
-                <label>id</label>
+                <label>الاسم الخاص بالمنتج*اللغة الانجليزية و بدون مسافة</label>
                 <input type="text" className='field' placeholder = 'id of product' name="id" id="productId"/>
                 </div>
                 <div className="inputBox">
-                <label>discription</label>
+                <label>وصف المنتج</label>
                 <textarea style={{resize:'none'}} type="text" className='field' placeholder = 'discription of product' name="discription" id="discription"/>
                 </div>
                 <div className="inputBox">
-                <label>specs</label>
+                <label>المواصفات التقنية للمنتج</label>
                 <div id="specs">
                 </div>
                 </div>
-                <button type="text" onClick={addSpec}>add spec</button>
+                <button type="text" onClick={addSpec}>اضافة خانة مواصفات</button>
                 <input type="file" id="actual-btn" hidden/>
-                <label id="button" htmlFor="actual-btn">image of Product</label>
+                <label id="button" htmlFor="actual-btn">صورة العنصر</label>
                 <img id = 'preview' src=""/>
                 <button type="submit">submit</button> 
             </form>
